@@ -1,0 +1,45 @@
+.title {
+    font-family: $primary-text;
+    font-size: $primary-size;
+}
+
+.description {
+    font-family: $paragraph;
+    font-size: $paragraph-size;
+    line-height: 26px;
+}
+
+.price {
+    margin-top: 0;
+    font-family: $paragraph;
+    font-size: $secondary-size;
+    text-align: center;
+}
+
+.slash-through {
+    text-decoration: line-through;
+}
+
+.cart, .explore {
+    font-family: $primary-text;
+    font-size: $paragraph-size;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    border-radius: 50px;
+    border-width: 0px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.bottle-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0;
+    margin-bottom: -20px;
+}

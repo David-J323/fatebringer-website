@@ -1,0 +1,26 @@
+.hero {
+    background-color: $gold;
+    position: relative;
+}
+
+.hero-title {
+    color: $dark-purple;
+    text-align: center;
+}
+
+.secondary-title {
+    font-family: $primary-text;
+    font-size: $secondary-size;
+    color: $dark-purple;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.triangle {
+    background-color: $dark-purple;
+    fill: $dark-purple;
+}

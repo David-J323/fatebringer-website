@@ -1,0 +1,249 @@
+body {
+  width: 100%;
+  margin: 0; }
+
+.container {
+  overflow: hidden;
+  max-width: 1200px;
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.row {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 8px; }
+
+.image-container {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.title {
+  font-family: "Abril Fatface", serif;
+  font-size: 42px; }
+
+.description {
+  font-family: "Oxygen", sans-serif;
+  font-size: 18px;
+  line-height: 26px; }
+
+.price {
+  margin-top: 0;
+  font-family: "Oxygen", sans-serif;
+  font-size: 28px;
+  text-align: center; }
+
+.slash-through {
+  text-decoration: line-through; }
+
+.cart, .explore {
+  font-family: "Abril Fatface", serif;
+  font-size: 18px;
+  width: 100%;
+  padding: 10px;
+  align-items: center;
+  border-radius: 50px;
+  border-width: 0px; }
+
+img {
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.bottle-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 0;
+  margin-bottom: -20px; }
+
+.navigation {
+  background-color: #EFE6DB;
+  position: fixed;
+  width: 100%;
+  height: 54px;
+  bottom: 0;
+  left: 0;
+  z-index: 4; }
+  .navigation:after {
+    content: '';
+    background-color: #381950;
+    color: #381950;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 0;
+    left: 0;
+    z-index: 5; }
+
+.nav-list {
+  background-color: #EFE6DB;
+  position: absolute;
+  width: 100%;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); }
+
+.nav-list-item {
+  width: 100%;
+  height: auto;
+  align-items: center; }
+
+.nav-words {
+  display: none; }
+
+.hero {
+  background-color: #B9A43C;
+  position: relative; }
+
+.hero-title {
+  color: #381950;
+  text-align: center; }
+
+.secondary-title {
+  font-family: "Abril Fatface", serif;
+  font-size: 28px;
+  color: #381950;
+  text-align: center; }
+
+.hero img {
+  width: 100%;
+  height: auto; }
+
+.triangle {
+  background-color: #381950;
+  fill: #381950; }
+
+.introduction {
+  background-color: #381950; }
+
+.intro-title {
+  color: #997EB7;
+  padding-top: 40px; }
+
+.intro-description {
+  color: #EFE6DB;
+  padding-top: 20px;
+  padding-bottom: 60px; }
+
+.products {
+  width: 100%;
+  height: auto;
+  position: relative; }
+
+.strength {
+  background-color: #EFE6DB;
+  padding-bottom: 40px; }
+
+.strength-title {
+  color: #997EB7;
+  text-align: center; }
+
+.strength-lines-left {
+  position: absolute; }
+
+.strength-lines-right {
+  position: absolute; }
+
+.strength-price {
+  color: #997EB7;
+  font-weight: 700; }
+
+.strength-cart {
+  background-color: #997EB7;
+  color: #EFE6DB; }
+
+.strength-explore {
+  background-color: #EFE6DB;
+  color: #997EB7;
+  border-width: 2px;
+  border-color: #997EB7; }
+
+.magician {
+  background-color: #997EB7;
+  padding-bottom: 40px; }
+
+.magician-title {
+  color: #EFE6DB;
+  text-align: center; }
+
+.magician-lines-left {
+  position: absolute; }
+
+.magician-lines-right {
+  position: absolute; }
+
+.magician-price {
+  color: #EFE6DB;
+  font-weight: 700; }
+
+.magician-cart {
+  background-color: #EFE6DB;
+  color: #997EB7; }
+
+.magician-explore {
+  background-color: #997EB7;
+  color: #EFE6DB;
+  border-width: 2px;
+  border-color: #EFE6DB; }
+
+.world {
+  background-color: #B9A43C;
+  padding-bottom: 40px; }
+
+.world-title {
+  color: #381950;
+  text-align: center; }
+
+.world-lines-left {
+  position: absolute; }
+
+.world-lines-right {
+  position: absolute; }
+
+.world-price {
+  color: #381950;
+  font-weight: 700; }
+
+.world-cart {
+  background-color: #381950;
+  color: #B9A43C; }
+
+.world-explore {
+  background-color: #B9A43C;
+  color: #381950;
+  border-width: 2px;
+  border-color: #381950; }
+
+.hierophant {
+  background-color: #381950;
+  padding-bottom: 40px; }
+
+.hierophant-title {
+  color: #B9A43C;
+  text-align: center; }
+
+.hierophant-lines-left {
+  position: absolute; }
+
+.hierophant-lines-right {
+  position: absolute; }
+
+.hierophant-price {
+  color: #B9A43C;
+  font-weight: 700; }
+
+.hierophant-cart {
+  background-color: #B9A43C;
+  color: #381950; }
+
+.hierophant-explore {
+  background-color: #381950;
+  color: #B9A43C;
+  border-width: 2px;
+  border-color: #B9A43C; }

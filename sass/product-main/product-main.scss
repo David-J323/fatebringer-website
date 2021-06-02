@@ -1,0 +1,155 @@
+
+.products {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+//the strength------
+
+.strength {
+    background-color: $vanilla;
+    padding-bottom: 40px;
+}
+
+.strength-title {
+    color: $light-purple;
+    text-align: center;
+}
+
+.strength-lines-left {
+    position: absolute;
+}
+
+.strength-lines-right {
+    position: absolute;
+}
+
+.strength-price {
+    color: $light-purple;
+    font-weight: 700;
+}
+
+.strength-cart {
+    background-color: $light-purple;
+    color: $vanilla;
+}
+
+.strength-explore {
+    background-color: $vanilla;
+    color: $light-purple;
+    border-width: 2px;
+    border-color: $light-purple;
+}
+
+//the magician-------
+
+.magician {
+    background-color: $light-purple;
+    padding-bottom: 40px;
+}
+
+.magician-title {
+    color: $vanilla;
+    text-align: center;
+}
+
+.magician-lines-left {
+    position: absolute;
+}
+
+.magician-lines-right {
+    position: absolute;
+}
+
+.magician-price {
+    color: $vanilla;
+    font-weight: 700;
+}
+
+.magician-cart {
+    background-color: $vanilla;
+    color: $light-purple;
+}
+
+.magician-explore {
+    background-color: $light-purple;
+    color: $vanilla;
+    border-width: 2px;
+    border-color: $vanilla;
+}
+
+//the world------
+
+.world {
+    background-color: $gold;
+    padding-bottom: 40px;
+}
+
+.world-title {
+    color: $dark-purple;
+    text-align: center;
+}
+
+.world-lines-left {
+    position: absolute;
+}
+
+.world-lines-right {
+    position: absolute;
+}
+
+.world-price {
+    color: $dark-purple;
+    font-weight: 700;
+}
+
+.world-cart {
+    background-color: $dark-purple;
+    color: $gold;
+}
+
+.world-explore {
+    background-color: $gold;
+    color: $dark-purple;
+    border-width: 2px;
+    border-color: $dark-purple;
+}
+
+//the hierophant-------
+
+.hierophant {
+    background-color: $dark-purple;
+    padding-bottom: 40px;
+}
+
+.hierophant-title {
+    color: $gold;
+    text-align: center;
+}
+
+.hierophant-lines-left {
+    position: absolute;
+}
+
+.hierophant-lines-right {
+    position: absolute;
+}
+
+.hierophant-price {
+    color: $gold;
+    font-weight: 700;
+}
+
+.hierophant-cart {
+    background-color: $gold;
+    color: $dark-purple;
+}
+
+.hierophant-explore {
+    background-color: $dark-purple;
+    color: $gold;
+    border-width: 2px;
+    border-color: $gold;
+}
+

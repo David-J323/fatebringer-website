@@ -1,0 +1,39 @@
+.navigation {
+    background-color: $vanilla;
+    position: fixed;
+    width: 100%;
+    height: 54px;
+    bottom: 0;
+    left: 0;
+    z-index: 4;
+    &:after {
+        content: '';
+        background-color: $dark-purple;
+        color: $dark-purple;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        top: 0;
+        left: 0;
+        z-index: 5;
+    }
+}
+
+.nav-list {
+    background-color: $vanilla;
+    position: absolute;
+    width: 100%;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.nav-list-item {
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.nav-words {
+    display: none;
+}
