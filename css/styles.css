@@ -6,7 +6,14 @@ body {
   overflow: hidden;
   max-width: 1200px;
   margin-left: 20px;
-  margin-right: 20px; }
+  margin-right: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr; }
+  @media only screen and (min-width: 62em) {
+    .container {
+      margin-left: auto;
+      margin-right: auto; } }
 
 .row {
   width: 100%;
@@ -60,7 +67,8 @@ img {
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 0;
-  margin-bottom: -20px; }
+  margin-bottom: -20px;
+  z-index: 2; }
 
 .navigation {
   background-color: #EFE6DB;
@@ -70,6 +78,13 @@ img {
   bottom: 0;
   left: 0;
   z-index: 4; }
+  @media only screen and (min-width: 62em) {
+    .navigation {
+      background-color: #381950;
+      top: 0;
+      left: 0;
+      height: 100px;
+      width: 100%; } }
   .navigation:after {
     content: '';
     background-color: #381950;
@@ -85,9 +100,19 @@ img {
   background-color: #EFE6DB;
   position: absolute;
   width: 100%;
+  left: 0;
   list-style: none;
   display: grid;
   grid-template-columns: repeat(4, 1fr); }
+  @media only screen and (min-width: 62em) {
+    .nav-list {
+      background-color: #381950;
+      position: relative;
+      height: 50px;
+      top: 16px;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-start: 3; } }
 
 .nav-list-item {
   width: 100%;
@@ -96,6 +121,36 @@ img {
 
 .nav-words {
   display: none; }
+  @media only screen and (min-width: 62em) {
+    .nav-words {
+      display: block;
+      font-family: "Abril Fatface", serif;
+      font-size: 18px; } }
+
+.nav-words > a {
+  color: #EFE6DB;
+  text-decoration: none; }
+
+.home {
+  display: none; }
+  @media only screen and (min-width: 62em) {
+    .home {
+      display: block;
+      position: relative;
+      color: #EFE6DB;
+      top: 16px;
+      text-decoration: none;
+      font-family: "Abril Fatface", serif;
+      font-size: 42px; } }
+
+@media only screen and (min-width: 62em) {
+  .nav-icons {
+    display: none; } }
+
+.fas {
+  color: #381950;
+  width: 100%;
+  height: auto; }
 
 .hero {
   background-color: #B9A43C;
@@ -144,11 +199,13 @@ img {
   color: #997EB7;
   text-align: center; }
 
-.strength-lines-left {
-  position: absolute; }
-
-.strength-lines-right {
-  position: absolute; }
+.strength-lines-top-left, .strength-lines-top-right {
+  left: 0;
+  position: absolute;
+  fill: #997EB7;
+  stroke: #997EB7;
+  stroke-width: 4px;
+  z-index: 0; }
 
 .strength-price {
   color: #997EB7;
@@ -247,3 +304,39 @@ img {
   color: #B9A43C;
   border-width: 2px;
   border-color: #B9A43C; }
+
+.review {
+  background-color: #EFE6DB;
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 60px; }
+
+.review-title {
+  color: #B9A43C;
+  padding-bottom: 30px; }
+
+.review-paragraph {
+  color: #381950; }
+
+.quote {
+  color: #381950;
+  font-weight: 700;
+  padding-bottom: 30px; }
+
+.social-media {
+  position: relative;
+  background-color: #B9A43C;
+  padding-top: 40px;
+  padding-bottom: 100px; }
+
+.footer-title {
+  color: #381950; }
+
+.sms-icons {
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 88px; }
+
+a > .sms-icons {
+  width: 20%;
+  height: auto; }

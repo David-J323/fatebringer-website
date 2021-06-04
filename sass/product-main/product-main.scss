@@ -17,12 +17,13 @@
     text-align: center;
 }
 
-.strength-lines-left {
+.strength-lines-top-left, .strength-lines-top-right {
+    left: 0;
     position: absolute;
-}
-
-.strength-lines-right {
-    position: absolute;
+    fill: $light-purple;
+    stroke: $light-purple;
+    stroke-width: 4px;
+    z-index: 0;
 }
 
 .strength-price {

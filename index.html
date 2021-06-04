@@ -11,16 +11,18 @@
     </head>
     <body>
         <nav class="navigation">
-            <ul class="nav-list">
-                <li class="nav-list-item"><a><i class="fas fa-home"></i></a></li>
-                <li class="nav-list-item"><a><i class="fas fa-shopping-cart"></i></a></li>
-                <li class="nav-list-item"><a><i class="fas fa-question-circle"></i></a></i></li>
-                <li class="nav-list-item"><a><i class="fas fa-comment"></i></a></li>
-                <li class="nav-list-item nav-words">Home</li>
-                <li class="nav-list-item nav-words">Cart</li>
-                <li class="nav-list-item nav-words">About</li>
-                <li class="nav-list-item nav-words">Contact</li>
-            </ul>
+            <div class="container">
+                <a href="#" class="home ">Fatebringers</a>
+                <ul class="nav-list">
+                    <li class="nav-list-item nav-icons"><a href="#"><i class="fas fa-home"></i></a></li>
+                    <li class="nav-list-item nav-icons"><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                    <li class="nav-list-item nav-icons"><a href="#"><i class="fas fa-question-circle"></i></a></i></li>
+                    <li class="nav-list-item nav-icons"><a href="#"><i class="fas fa-comment"></i></a></li>
+                    <li class="nav-list-item nav-words"><a href="#">Cart</a></li>
+                    <li class="nav-list-item nav-words"><a href="#">About</a></li>
+                    <li class="nav-list-item nav-words"><a href="#">Contact</a></li>
+                </ul>
+            </div>
         </nav>
         <header class="hero">
             <div class="container">
@@ -49,8 +51,7 @@
             <section class="strength">
                 <div class="container">
                     <h1 class="title strength-title">The Strength</h1>
-                    <svg class="strength-lines-left"></svg>
-                    <svg class="strength-lines-right"></svg>
+                    
                     <figure class="bottle-container">
                         <img src="img/Frame 1.png" alt="strength-bottle" />
                     </figure>
@@ -67,8 +68,12 @@
             <section class="magician">
                 <div class="container">
                     <h1 class="title magician-title">The Magician</h1>
-                    <svg class="magician-lines-left"></svg>
-                    <svg class="magician-lines-right"></svg>
+                    <svg class="magician-lines-left" width="300" height="200">
+                        <polygon points="100,10 280,190"/>
+                    </svg>
+                    <svg class="magician-lines-right" width="300" height="200">
+                        <polygon points="100,10 280,190"/> 
+                    </svg>
                     <figure class="bottle-container">
                         <img src="img/Frame 2.png" alt="magician-bottle" />
                     </figure>
@@ -117,24 +122,40 @@
                 </div>
             </section>
         </main>
-        <aside>
+        <aside class="review">
             <div class="container">
                 <h1 class="title review-title">Hear from the Enchanted</h1>
-                <p class="quote">"</p>
-                <p class="descripton review">
-                    It really does feel like magic! 
+                <p class="description review-paragraph">
+                    "It really does feel like magic! 
                     All of my anxiety and worries about just life 
-                    in general just went poof! 
+                    in general just went poof!"
                 </p>
+                <p class="description quote">- Jack Garcia</p>
+                <p class="description review-paragraph">
+                    "If you ever want to give yourself a little good luck 
+                    or extra boost for the day, drink some fatebringers to
+                    change your fortune!"
+                </p>
+                <p class="description quote">- Amy Loyld</p>
+                <p class="description review-paragraph">
+                    "This is one of the best tasting drinks I'be ever had!
+                    My personal favorite is The Strength since it 
+                    feels like I get a mega power boost!"
+                </p>
+                <p class="description quote">- Will Balter</p>
             </div>
         </aside>
-        <footer>
+        <footer class="social-media">
             <div class="container">
-                <h1 class="title social-media">Follow Us on Social Media</h1>
-                <figure class="image-container">
-                    <img src="img/Facebook-logo.png" alt="facebook-logo" />
-                    <img src="img/twitter_circle-512.png" alt="twitter-logo" />
-                    <img src="img/instagram-512.png" alt="instagram-logo" />
+                <h1 class="title footer-title">Follow Us on Social Media</h1>
+                <figure href="#" class="sms-icons">
+                    <a href="#"><img src="img/Frame 5.png" alt="facebook-logo" /></a>
+                </figure>
+                <figure class="sms-icons">    
+                    <a href="#"><img src="img/Frame 6.png" alt="twitter-logo" /></a>
+                </figure>
+                <figure class="sms-icons">    
+                    <a href="#"><img src="img/Frame 7.png" alt="instagram-logo" /></a>
                 </figure>
             </div>
         </footer>

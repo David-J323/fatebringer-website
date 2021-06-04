@@ -6,6 +6,13 @@
     bottom: 0;
     left: 0;
     z-index: 4;
+    @include desktop {
+        background-color: $dark-purple;
+        top: 0;
+        left: 0;
+        height: 100px;
+        width: 100%;
+    }
     &:after {
         content: '';
         background-color: $dark-purple;
@@ -17,23 +24,74 @@
         left: 0;
         z-index: 5;
     }
+
 }
 
 .nav-list {
     background-color: $vanilla;
     position: absolute;
     width: 100%;
+    left: 0;
     list-style: none;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    @include desktop {
+        background-color: $dark-purple;
+        position: relative;
+        height: 50px;
+        top: 16px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-start: 3;
+        
+    }
 }
 
 .nav-list-item {
     width: 100%;
     height: auto;
     align-items: center;
+    @include desktop {
+        
+    }
 }
 
 .nav-words {
     display: none;
+    @include desktop {
+        display: block;
+        font-family: $primary-text;
+        font-size: $paragraph-size;
+    }
+}
+
+.nav-words > a {
+    color: $vanilla;
+    text-decoration: none;
+}
+
+.home {
+    display: none;
+    @include desktop {
+        display: block;
+        position: relative;
+        color: $vanilla;
+        top: 16px;
+        text-decoration: none;
+        font-family: $primary-text;
+        font-size: $primary-size;
+    }
+}
+
+
+.nav-icons {
+    @include desktop {
+        display: none;
+    }
+}
+
+.fas {
+    color: $dark-purple;
+    width: 100%;
+    height: auto;
 }
