@@ -581,3 +581,53 @@ a > .sms-icons {
   .single-logo {
     padding-left: 120px;
     padding-right: 120px; } }
+
+.strength-page {
+  background-color: #EFE6DB;
+  position: relative;
+  width: 100%;
+  height: auto; }
+
+.strength-hero {
+  position: relative;
+  margin-left: 0;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.strength-packaging {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0; }
+
+.strength-page-title {
+  font-family: "Abril Fatface", serif;
+  font-size: 42px;
+  color: #997EB7;
+  text-align: center; }
+
+.strength-page-tagline {
+  font-family: "Oxygen", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #997EB7;
+  text-align: center; }
+
+.strength-description {
+  font-family: "Oxygen", sans-serif;
+  font-size: 18px;
+  color: #381950;
+  padding-top: 40px; }
+
+.strength-gallery {
+  position: relative;
+  width: 100%;
+  height: auto; }
+
+.strength-photo {
+  padding-top: 40px;
+  padding-bottom: 40px; }

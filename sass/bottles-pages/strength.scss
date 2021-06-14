@@ -1,0 +1,59 @@
+.strength-page {
+    background-color: $vanilla;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.strength-hero {
+    position: relative;
+    margin-left: 0;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.strength-packaging {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+.strength-page-title {
+    font-family: $primary-text;
+    font-size: $primary-size;
+    color: $light-purple;
+    text-align: center;
+}
+
+.strength-page-tagline {
+    font-family: $paragraph;
+    font-size: $secondary-size;
+    font-weight: 700;
+    color: $light-purple;
+    text-align: center;
+}
+
+.strength-description {
+    font-family: $paragraph;
+    font-size: $paragraph-size;
+    color: $dark-purple;
+    padding-top: 40px;
+}
+
+.strength-gallery {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.strength-photo {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
