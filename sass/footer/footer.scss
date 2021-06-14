@@ -7,15 +7,31 @@
 
 .footer-title {
     color: $dark-purple;
+    @include desktop {
+        text-align: center;
+    }
 }
 
 .sms-icons {
     padding-top: 20px;
     padding-left: 80px;
     padding-right: 88px;
+    line-height: 100px;
+    @include desktop {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        line-height: 0;
+    }
 }
 
 a > .sms-icons {
     width: 20%;
     height: auto;
+}
+
+.single-logo {
+    @include desktop {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
 }

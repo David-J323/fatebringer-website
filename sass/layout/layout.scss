@@ -27,10 +27,20 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 8px;
+    @include desktop {
+        grid-template-columns: 200px 200px;
+        grid-column-start: 2;
+        align-items: right;
+        justify-self: right;
+    }
 }
 
 .image-container {
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
+    @include desktop {
+        position: absolute;
+        margin-right: 50%;
+    }
 }

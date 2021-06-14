@@ -3,6 +3,10 @@
     width: 100%;
     height: auto;
     position: relative;
+    overflow: hidden;
+    @include desktop {
+        
+    }
 }
 
 //the strength------
@@ -10,30 +14,134 @@
 .strength {
     background-color: $vanilla;
     padding-bottom: 40px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    @include desktop {
+        padding-top: 200px;
+        padding-bottom: 300px;
+    }
+}
+
+.strength-bottle {
+    @include desktop {
+        position: absolute;
+        top: 0;
+        padding-top: 40px;
+    }
 }
 
 .strength-title {
     color: $light-purple;
     text-align: center;
-}
-
-.strength-lines-top-left, .strength-lines-top-right {
-    left: 0;
-    position: absolute;
-    fill: $light-purple;
-    stroke: $light-purple;
-    stroke-width: 4px;
-    z-index: 0;
+    position: relative;
+    @include desktop {
+        padding-top: 100px;
+        grid-column-start: 2;
+        justify-self: right;
+    }
+    /*
+    &:after {
+        content: "";
+        background-color: $light-purple;
+        position: absolute;
+        left: -100px;
+        top: 400px;
+        width: 800px;
+        height: 4px;
+        transform: rotate(35deg);
+    }
+    &:before {
+        content: "";
+        background-color: $light-purple;
+        position: absolute;
+        left: -100px;
+        top: 430px;
+        width: 800px;
+        height: 12px;
+        transform: rotate(35deg);
+    }
+    @include desktop {
+        &:before {
+            display: none;
+        }
+        &:after {
+            display: none;
+        }   
+    } */
 }
 
 .strength-price {
     color: $light-purple;
     font-weight: 700;
+    color: $light-purple;
+    text-align: center;
+    @include desktop {
+        justify-self: right;
+    }
+    /*
+    &:after {
+        content: "";
+        background-color: $light-purple;
+        position: absolute;
+        left: -100px;
+        top: 500px;
+        width: 800px;
+        height: 8px;
+        transform: rotate(35deg);
+    }
+    &:before {
+        content: "";
+        background-color: $light-purple;
+        position: absolute;
+        left: -100px;
+        top: 270px;
+        width: 800px;
+        height: 4px;
+        transform: rotate(325deg);
+    }
+    @include desktop {
+        &:before {
+            display: none;
+        }
+        &:after {
+            display: none;
+        }   
+    } */
+    
 }
 
 .strength-cart {
     background-color: $light-purple;
     color: $vanilla;
+    /*
+        content: "";
+        background-color: $light-purple;
+        position: absolute;
+        left: -100px;
+        top: 300px;
+        width: 800px;
+        height: 12px;
+        transform: rotate(325deg);
+    }
+    &:before {
+        content: "";
+        background-color: $light-purple;
+        position: absolute;
+        left: -100px;
+        top: 370px;
+        width: 800px;
+        height: 8px;
+        transform: rotate(325deg);
+    }
+    @include desktop {
+        &:before {
+            display: none;
+        }
+        &:after {
+            display: none;
+        }   
+    } */
 }
 
 .strength-explore {
@@ -48,24 +156,49 @@
 .magician {
     background-color: $light-purple;
     padding-bottom: 40px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    @include desktop {
+        padding-top: 200px;
+        padding-bottom: 300px;
+    }
+}
+
+.magician-bottle {
+    @include desktop {
+        position: absolute;
+        top: 0;
+        padding-top: 40px;
+    }
 }
 
 .magician-title {
     color: $vanilla;
     text-align: center;
+    @include desktop {
+        padding-top: 100px;
+        grid-column-start: 2;
+        justify-self: right;
+    }
 }
 
-.magician-lines-left {
-    position: absolute;
-}
-
-.magician-lines-right {
-    position: absolute;
+.magician-col {
+    @include desktop {
+        display: grid;
+        grid-template-columns: 200px 200px;
+        grid-column-start: 2;
+        align-items: right; 
+    }
 }
 
 .magician-price {
     color: $vanilla;
     font-weight: 700;
+    @include desktop {
+        grid-column-start: 2;
+        justify-self: right;
+    }
 }
 
 .magician-cart {
@@ -85,24 +218,49 @@
 .world {
     background-color: $gold;
     padding-bottom: 40px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    @include desktop {
+        padding-top: 200px;
+        padding-bottom: 300px;
+    }
+}
+
+.world-bottle {
+    @include desktop {
+        position: absolute;
+        top: 0;
+        padding-top: 40px;
+    }
 }
 
 .world-title {
     color: $dark-purple;
     text-align: center;
+    @include desktop {
+        padding-top: 100px;
+        grid-column-start: 2;
+        justify-self: right;
+    }
 }
 
-.world-lines-left {
-    position: absolute;
-}
-
-.world-lines-right {
-    position: absolute;
+.world-col {
+    @include desktop {
+        display: grid;
+        grid-template-columns: 200px 200px;
+        grid-column-start: 2;
+        align-items: right; 
+    }
 }
 
 .world-price {
     color: $dark-purple;
     font-weight: 700;
+    @include desktop {
+        grid-column-start: 2;
+        justify-self: right;
+    }
 }
 
 .world-cart {
@@ -122,24 +280,39 @@
 .hierophant {
     background-color: $dark-purple;
     padding-bottom: 40px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    @include desktop {
+        padding-top: 200px;
+        padding-bottom: 300px;
+    }
+}
+
+.hierophant-bottle {
+    @include desktop {
+        position: absolute;
+        top: 0;
+        padding-top: 40px;
+    }
 }
 
 .hierophant-title {
     color: $gold;
     text-align: center;
-}
-
-.hierophant-lines-left {
-    position: absolute;
-}
-
-.hierophant-lines-right {
-    position: absolute;
+    @include desktop {
+        padding-top: 100px;
+        grid-column-start: 2;
+        justify-self: right;
+    }
 }
 
 .hierophant-price {
     color: $gold;
     font-weight: 700;
+    @include desktop {
+        justify-self: right;
+    }
 }
 
 .hierophant-cart {

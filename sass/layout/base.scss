@@ -6,7 +6,9 @@
 .description {
     font-family: $paragraph;
     font-size: $paragraph-size;
-    line-height: 26px;
+    @include desktop {
+        
+    }
 }
 
 .price {
@@ -35,6 +37,10 @@ img {
     height: auto;
     margin-top: 0;
     margin-bottom: 0;
+    @include desktop {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .bottle-container {
@@ -43,4 +49,8 @@ img {
     margin-top: 0;
     margin-bottom: -20px;
     z-index: 2;
+    @include desktop {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
 }

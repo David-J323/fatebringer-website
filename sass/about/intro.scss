@@ -1,5 +1,11 @@
 .introduction {
     background-color: $dark-purple;
+    position: relative;
+    @include desktop {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 100px;
+    }
 }
 
 .intro-title {
@@ -11,4 +17,7 @@
     color: $vanilla;
     padding-top: 20px;
     padding-bottom: 60px;
+    @include desktop {
+    padding-right: 160px;
+    }
 }

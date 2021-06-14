@@ -8,10 +8,18 @@
 .review-title {
     color: $gold;
     padding-bottom: 30px;
+    @include desktop {
+        font-size: $primary-size + 10px;
+    }
 }
 
 .review-paragraph {
     color: $dark-purple;
+    line-height: 26px;
+    @include desktop {
+        padding-top: 10px;
+        padding-bottom: -40px;
+    }
 }
 .quote {
     color: $dark-purple;
