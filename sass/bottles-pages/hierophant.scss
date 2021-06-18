@@ -1,0 +1,143 @@
+.hierophant-page {
+    background-color: $dark-purple;
+    position: relative;
+    width: 100%;
+    height: auto;
+    @include desktop {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+}
+
+.hierophant-hero {
+    position: relative;
+    margin-left: 0;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    @include desktop {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+.hierophant-packaging {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    @include desktop {
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
+.hierophant-page-title {
+    font-family: $primary-text;
+    font-size: $primary-size;
+    color: $gold;
+    text-align: center;
+    @include desktop {
+        grid-column-start: 2;
+        justify-self: right;
+        margin-top: 160px;
+        margin-bottom: -20px;
+    }
+}
+
+.hierophant-page-tagline {
+    font-family: $paragraph;
+    font-size: $secondary-size;
+    font-weight: 700;
+    color: $gold;
+    text-align: center;
+    @include desktop {
+        grid-column-start: 2;
+        justify-self: right;
+        padding-bottom: 10px;
+    }
+}
+
+.hierophant-description {
+    font-family: $paragraph;
+    font-size: $paragraph-size;
+    color: $gold;
+    padding-top: 40px;
+    @include desktop {
+        grid-column-start: 2;
+        justify-self: right;
+        text-align: right;
+        font-size: $paragraph-size + 4px;
+    }
+}
+
+.hierophant-page-button {
+    @include desktop {
+        height: 50px;
+        width: 200px;
+        grid-column-start: 2;
+        justify-self: right;
+    }
+}
+
+.hierophant-gallery {
+    position: relative;
+    width: 100%;
+    height: auto;
+    @include desktop {
+        margin-top: 80px;
+        padding-top: 120px;
+        padding-bottom: 900px;
+    }
+}
+
+.hierophant-photo {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    @include desktop {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.hierophant-footer {
+    background-color: $dark-purple;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    @include desktop {
+        display: grid;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+.first-link {
+    @include desktop {
+        grid-column-start: 1;
+        
+    }
+}
+
+.second-link {
+    @include desktop {
+        grid-column-start: 2;
+        
+    }
+}
+
+.third-link {
+    @include desktop {
+        grid-column-start: 3;
+    }
+}

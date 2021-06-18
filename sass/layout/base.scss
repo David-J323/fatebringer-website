@@ -54,3 +54,21 @@ img {
         margin-right: 100px;
     }
 }
+
+.bottle-links {
+    text-align: center;
+    font-family: $paragraph;
+    font-size: $paragraph-size;
+    font-weight: 700;
+    color: $vanilla;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    @include desktop {
+        position: relative;
+        padding-right: 100px;
+        padding-left: 100px;
+        justify-items: center;
+        justify-self: right;
+    }
+}

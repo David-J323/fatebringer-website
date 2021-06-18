@@ -87,6 +87,23 @@ img {
       margin-left: 100px;
       margin-right: 100px; } }
 
+.bottle-links {
+  text-align: center;
+  font-family: "Oxygen", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #EFE6DB;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  @media only screen and (min-width: 62em) {
+    .bottle-links {
+      position: relative;
+      padding-right: 100px;
+      padding-left: 100px;
+      justify-items: center;
+      justify-self: right; } }
+
 .navigation {
   background-color: #EFE6DB;
   position: fixed;
@@ -587,6 +604,10 @@ a > .sms-icons {
   position: relative;
   width: 100%;
   height: auto; }
+  @media only screen and (min-width: 62em) {
+    .strength-page {
+      padding-top: 120px;
+      padding-bottom: 120px; } }
 
 .strength-hero {
   position: relative;
@@ -594,6 +615,12 @@ a > .sms-icons {
   margin-right: auto;
   padding-top: 40px;
   padding-bottom: 40px; }
+  @media only screen and (min-width: 62em) {
+    .strength-hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-top: 0;
+      padding-bottom: 0; } }
 
 .strength-packaging {
   position: relative;
@@ -603,12 +630,23 @@ a > .sms-icons {
   padding-right: 0;
   margin-left: 0;
   margin-right: 0; }
+  @media only screen and (min-width: 62em) {
+    .strength-packaging {
+      position: absolute;
+      display: grid;
+      grid-template-columns: 1fr 1fr; } }
 
 .strength-page-title {
   font-family: "Abril Fatface", serif;
   font-size: 42px;
   color: #997EB7;
   text-align: center; }
+  @media only screen and (min-width: 62em) {
+    .strength-page-title {
+      grid-column-start: 2;
+      justify-self: right;
+      margin-top: 160px;
+      margin-bottom: -20px; } }
 
 .strength-page-tagline {
   font-family: "Oxygen", sans-serif;
@@ -616,18 +654,439 @@ a > .sms-icons {
   font-weight: 700;
   color: #997EB7;
   text-align: center; }
+  @media only screen and (min-width: 62em) {
+    .strength-page-tagline {
+      grid-column-start: 2;
+      justify-self: right;
+      padding-bottom: 10px; } }
 
 .strength-description {
   font-family: "Oxygen", sans-serif;
   font-size: 18px;
   color: #381950;
   padding-top: 40px; }
+  @media only screen and (min-width: 62em) {
+    .strength-description {
+      grid-column-start: 2;
+      justify-self: right;
+      text-align: right;
+      font-size: 22px; } }
+
+@media only screen and (min-width: 62em) {
+  .strength-page-button {
+    height: 50px;
+    width: 200px;
+    grid-column-start: 2;
+    justify-self: right; } }
 
 .strength-gallery {
   position: relative;
   width: 100%;
   height: auto; }
+  @media only screen and (min-width: 62em) {
+    .strength-gallery {
+      margin-top: 80px;
+      padding-top: 120px;
+      padding-bottom: 900px; } }
 
 .strength-photo {
   padding-top: 40px;
   padding-bottom: 40px; }
+  @media only screen and (min-width: 62em) {
+    .strength-photo {
+      width: 100%;
+      height: auto; } }
+
+.strength-footer {
+  background-color: #381950;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 80px; }
+  @media only screen and (min-width: 62em) {
+    .strength-footer {
+      display: grid;
+      padding-top: 40px;
+      padding-bottom: 40px; } }
+
+@media only screen and (min-width: 62em) {
+  .first-link {
+    grid-column-start: 1; } }
+
+@media only screen and (min-width: 62em) {
+  .second-link {
+    grid-column-start: 2; } }
+
+@media only screen and (min-width: 62em) {
+  .third-link {
+    grid-column-start: 3; } }
+
+.magician-page {
+  background-color: #997EB7;
+  position: relative;
+  width: 100%;
+  height: auto; }
+  @media only screen and (min-width: 62em) {
+    .magician-page {
+      padding-top: 120px;
+      padding-bottom: 120px; } }
+
+.magician-hero {
+  position: relative;
+  margin-left: 0;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  @media only screen and (min-width: 62em) {
+    .magician-hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-top: 0;
+      padding-bottom: 0; } }
+
+.magician-packaging {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0; }
+  @media only screen and (min-width: 62em) {
+    .magician-packaging {
+      position: absolute;
+      display: grid;
+      grid-template-columns: 1fr 1fr; } }
+
+.magician-page-title {
+  font-family: "Abril Fatface", serif;
+  font-size: 42px;
+  color: #EFE6DB;
+  text-align: center; }
+  @media only screen and (min-width: 62em) {
+    .magician-page-title {
+      grid-column-start: 2;
+      justify-self: right;
+      margin-top: 160px;
+      margin-bottom: -20px; } }
+
+.magician-page-tagline {
+  font-family: "Oxygen", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #EFE6DB;
+  text-align: center; }
+  @media only screen and (min-width: 62em) {
+    .magician-page-tagline {
+      grid-column-start: 2;
+      justify-self: right;
+      padding-bottom: 10px; } }
+
+.magician-description {
+  font-family: "Oxygen", sans-serif;
+  font-size: 18px;
+  color: #EFE6DB;
+  padding-top: 40px; }
+  @media only screen and (min-width: 62em) {
+    .magician-description {
+      grid-column-start: 2;
+      justify-self: right;
+      text-align: right;
+      font-size: 22px; } }
+
+@media only screen and (min-width: 62em) {
+  .magician-page-button {
+    height: 50px;
+    width: 200px;
+    grid-column-start: 2;
+    justify-self: right; } }
+
+.magician-gallery {
+  position: relative;
+  width: 100%;
+  height: auto; }
+  @media only screen and (min-width: 62em) {
+    .magician-gallery {
+      margin-top: 80px;
+      padding-top: 120px;
+      padding-bottom: 900px; } }
+
+.magician-photo {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  @media only screen and (min-width: 62em) {
+    .magician-photo {
+      width: 100%;
+      height: auto; } }
+
+.magician-footer {
+  background-color: #381950;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 80px; }
+  @media only screen and (min-width: 62em) {
+    .magician-footer {
+      display: grid;
+      padding-top: 40px;
+      padding-bottom: 40px; } }
+
+@media only screen and (min-width: 62em) {
+  .first-link {
+    grid-column-start: 1; } }
+
+@media only screen and (min-width: 62em) {
+  .second-link {
+    grid-column-start: 2; } }
+
+@media only screen and (min-width: 62em) {
+  .third-link {
+    grid-column-start: 3; } }
+
+.world-page {
+  background-color: #B9A43C;
+  position: relative;
+  width: 100%;
+  height: auto; }
+  @media only screen and (min-width: 62em) {
+    .world-page {
+      padding-top: 120px;
+      padding-bottom: 120px; } }
+
+.world-hero {
+  position: relative;
+  margin-left: 0;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  @media only screen and (min-width: 62em) {
+    .world-hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-top: 0;
+      padding-bottom: 0; } }
+
+.world-packaging {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0; }
+  @media only screen and (min-width: 62em) {
+    .world-packaging {
+      position: absolute;
+      display: grid;
+      grid-template-columns: 1fr 1fr; } }
+
+.world-page-title {
+  font-family: "Abril Fatface", serif;
+  font-size: 42px;
+  color: #381950;
+  text-align: center; }
+  @media only screen and (min-width: 62em) {
+    .world-page-title {
+      grid-column-start: 2;
+      justify-self: right;
+      margin-top: 160px;
+      margin-bottom: -20px; } }
+
+.world-page-tagline {
+  font-family: "Oxygen", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #381950;
+  text-align: center; }
+  @media only screen and (min-width: 62em) {
+    .world-page-tagline {
+      grid-column-start: 2;
+      justify-self: right;
+      padding-bottom: 10px; } }
+
+.world-description {
+  font-family: "Oxygen", sans-serif;
+  font-size: 18px;
+  color: #381950;
+  padding-top: 40px; }
+  @media only screen and (min-width: 62em) {
+    .world-description {
+      grid-column-start: 2;
+      justify-self: right;
+      text-align: right;
+      font-size: 22px; } }
+
+@media only screen and (min-width: 62em) {
+  .world-page-button {
+    height: 50px;
+    width: 200px;
+    grid-column-start: 2;
+    justify-self: right; } }
+
+.world-gallery {
+  position: relative;
+  width: 100%;
+  height: auto; }
+  @media only screen and (min-width: 62em) {
+    .world-gallery {
+      margin-top: 80px;
+      padding-top: 120px;
+      padding-bottom: 900px; } }
+
+.world-photo {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  @media only screen and (min-width: 62em) {
+    .world-photo {
+      width: 100%;
+      height: auto; } }
+
+.world-footer {
+  background-color: #381950;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 80px; }
+  @media only screen and (min-width: 62em) {
+    .world-footer {
+      display: grid;
+      padding-top: 40px;
+      padding-bottom: 40px; } }
+
+@media only screen and (min-width: 62em) {
+  .first-link {
+    grid-column-start: 1; } }
+
+@media only screen and (min-width: 62em) {
+  .second-link {
+    grid-column-start: 2; } }
+
+@media only screen and (min-width: 62em) {
+  .third-link {
+    grid-column-start: 3; } }
+
+.hierophant-page {
+  background-color: #381950;
+  position: relative;
+  width: 100%;
+  height: auto; }
+  @media only screen and (min-width: 62em) {
+    .hierophant-page {
+      padding-top: 120px;
+      padding-bottom: 120px; } }
+
+.hierophant-hero {
+  position: relative;
+  margin-left: 0;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  @media only screen and (min-width: 62em) {
+    .hierophant-hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-top: 0;
+      padding-bottom: 0; } }
+
+.hierophant-packaging {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0; }
+  @media only screen and (min-width: 62em) {
+    .hierophant-packaging {
+      position: absolute;
+      display: grid;
+      grid-template-columns: 1fr 1fr; } }
+
+.hierophant-page-title {
+  font-family: "Abril Fatface", serif;
+  font-size: 42px;
+  color: #B9A43C;
+  text-align: center; }
+  @media only screen and (min-width: 62em) {
+    .hierophant-page-title {
+      grid-column-start: 2;
+      justify-self: right;
+      margin-top: 160px;
+      margin-bottom: -20px; } }
+
+.hierophant-page-tagline {
+  font-family: "Oxygen", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #B9A43C;
+  text-align: center; }
+  @media only screen and (min-width: 62em) {
+    .hierophant-page-tagline {
+      grid-column-start: 2;
+      justify-self: right;
+      padding-bottom: 10px; } }
+
+.hierophant-description {
+  font-family: "Oxygen", sans-serif;
+  font-size: 18px;
+  color: #B9A43C;
+  padding-top: 40px; }
+  @media only screen and (min-width: 62em) {
+    .hierophant-description {
+      grid-column-start: 2;
+      justify-self: right;
+      text-align: right;
+      font-size: 22px; } }
+
+@media only screen and (min-width: 62em) {
+  .hierophant-page-button {
+    height: 50px;
+    width: 200px;
+    grid-column-start: 2;
+    justify-self: right; } }
+
+.hierophant-gallery {
+  position: relative;
+  width: 100%;
+  height: auto; }
+  @media only screen and (min-width: 62em) {
+    .hierophant-gallery {
+      margin-top: 80px;
+      padding-top: 120px;
+      padding-bottom: 900px; } }
+
+.hierophant-photo {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  @media only screen and (min-width: 62em) {
+    .hierophant-photo {
+      width: 100%;
+      height: auto; } }
+
+.hierophant-footer {
+  background-color: #381950;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 80px; }
+  @media only screen and (min-width: 62em) {
+    .hierophant-footer {
+      display: grid;
+      padding-top: 40px;
+      padding-bottom: 40px; } }
+
+@media only screen and (min-width: 62em) {
+  .first-link {
+    grid-column-start: 1; } }
+
+@media only screen and (min-width: 62em) {
+  .second-link {
+    grid-column-start: 2; } }
+
+@media only screen and (min-width: 62em) {
+  .third-link {
+    grid-column-start: 3; } }

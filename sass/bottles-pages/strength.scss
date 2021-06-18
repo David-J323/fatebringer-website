@@ -3,6 +3,10 @@
     position: relative;
     width: 100%;
     height: auto;
+    @include desktop {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
 }
 
 .strength-hero {
@@ -11,6 +15,12 @@
     margin-right: auto;
     padding-top: 40px;
     padding-bottom: 40px;
+    @include desktop {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 }
 
 .strength-packaging {
@@ -21,6 +31,11 @@
     padding-right: 0;
     margin-left: 0;
     margin-right: 0;
+    @include desktop {
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 
@@ -30,6 +45,12 @@
     font-size: $primary-size;
     color: $light-purple;
     text-align: center;
+    @include desktop {
+        grid-column-start: 2;
+        justify-self: right;
+        margin-top: 160px;
+        margin-bottom: -20px;
+    }
 }
 
 .strength-page-tagline {
@@ -38,6 +59,11 @@
     font-weight: 700;
     color: $light-purple;
     text-align: center;
+    @include desktop {
+        grid-column-start: 2;
+        justify-self: right;
+        padding-bottom: 10px;
+    }
 }
 
 .strength-description {
@@ -45,15 +71,73 @@
     font-size: $paragraph-size;
     color: $dark-purple;
     padding-top: 40px;
+    @include desktop {
+        grid-column-start: 2;
+        justify-self: right;
+        text-align: right;
+        font-size: $paragraph-size + 4px;
+    }
+}
+
+.strength-page-button {
+    @include desktop {
+        height: 50px;
+        width: 200px;
+        grid-column-start: 2;
+        justify-self: right;
+    }
 }
 
 .strength-gallery {
     position: relative;
     width: 100%;
     height: auto;
+    @include desktop {
+        margin-top: 80px;
+        padding-top: 120px;
+        padding-bottom: 900px;
+    }
 }
 
 .strength-photo {
     padding-top: 40px;
     padding-bottom: 40px;
+    @include desktop {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.strength-footer {
+    background-color: $dark-purple;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    @include desktop {
+        display: grid;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+.first-link {
+    @include desktop {
+        grid-column-start: 1;
+        
+    }
+}
+
+.second-link {
+    @include desktop {
+        grid-column-start: 2;
+        
+    }
+}
+
+.third-link {
+    @include desktop {
+        grid-column-start: 3;
+    }
 }
